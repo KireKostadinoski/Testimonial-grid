@@ -808,6 +808,13 @@ video {
     grid-row: span 2 / span 2;
   }
 
+  .md\:line-clamp-6 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+  }
+
   .md\:block {
     display: block;
   }
@@ -832,5 +839,12 @@ video {
 
   .md\:p-10 {
     padding: 2.5rem;
+  }
+
+  .md\:line-clamp-6 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
   }
 }
